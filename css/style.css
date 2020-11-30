@@ -2,7 +2,7 @@
 	box-sizing: border-box;
 }
 body{
-	background: url('image/uttamdey-tt.jpg') no-repeat;
+	background: url('../image/uttamdey-tt.jpg') no-repeat;
 	background-size: cover;
 	margin: 0px;
     padding: 0px;
