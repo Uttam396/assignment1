@@ -1,36 +1,37 @@
-*{
-	box-sizing: border-box;
+ * {
+    box-sizing: border-box;
 }
 body{
-	background: url('../image/uttamdey-tt.jpg') no-repeat;
-	background-size: cover;
-	margin: 0px;
-    padding: 0px;
-	font-family: Arial, Helvetica, sans-serif;
+	background-image: url('../image/uttamdey-tt.jpg');
+	font-family: sans-serif;
+	background-repeat: no-repeat;
 }
 .navbar{
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
-	width:100%
+	width:100%;
+	position: fixed;
+    left: 0px;
+	top: 0px;
+	height: 82px;
 }
 
-.navbar-logo{
+.logo{
 	text-decoration: none;
     color: white;
-    font-size: 24px;
-    font-weight: 700;
+    font-size: 20px;
+    font-weight: 600;
     padding: 30px 30px;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
-.navbar-menu{
+.nav-menu{
 	list-style-type: none;
-	display: inline-block;
 	float: right;
     margin-right: 30px;
 }
 
 .nav-links{
-	text-decoration: none;
+	
     text-transform: uppercase;
     color: white;
     font-size: 14px;
@@ -47,81 +48,38 @@ body{
 	color:#ffad33;
 }
 
-.nav-brand{
-	width: 25%;
-    float: left;
+.nav-left{
+	width: 30%;
+	float: left;
+	margin-top: 30px;
 }
 
-.navbar-div{
-	width: 75%;
-	display: inline-block;
+.nav-right{
+	float:right;
 }
 
-.nav-item{
-    margin-left: 10px;
-    float: left;
-	display: inline;
+.nav-list{
+    display: inline;
+	
 }
 
-.content-section{
+.content{
 	text-align: center;
     color: white;
     text-transform: uppercase;
 	padding-top: 17%;
 }
 
-.content-list-section{
-	display: inline-flex;
-}
 
-.content-list-item{
-	display: list-item;
-    margin-right: 5px;
-    list-style-position: inside;
-	font-weight: 700;
-}
-
-.content-list-item:nth-child(1){
-	list-style-type: none;
-}
-
-.content-list-item span{
-	margin-left: -10px;
-}
-
-.content-list-item::marker{
-	margin-left:5px;
-}
-
-.content-section p{
-    font-weight: 700;
-    margin: 20px;
-}
-
-.content-section p:nth-child(2){  
-	font-size: 64px;   
-}
-
-.content-section p:nth-child(3){  
-	font-size: 13px;
-    
-}
-.banner-button{
-	text-decoration: none;
-    color: black;
+.section-button{
+	color: black;
     padding: 10px 25px;
     margin: 0px 5px;
     font-size: 15px;
     border: 3px solid white;
 	font-weight: 700;
-	display: inline-block;
+	background-color: transparent;
 }
-.banner-button:hover{
+.section-button:hover{
 	background: white;
-}
-
-.banner-action-button{
-	margin: 10px;
-    padding: 5px;
-    display: inline-block;
 }
