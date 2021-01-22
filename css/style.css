@@ -4,7 +4,7 @@
 body{
 	background-image: url('../image/uttamdey-tt.jpg');
 	font-family: sans-serif;
-	background-repeat: no-repeat;
+	/* background-repeat: no-repeat; */
 }
 .navbar{
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
